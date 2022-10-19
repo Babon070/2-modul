@@ -1,0 +1,270 @@
+.mask {
+  background: $color-Dark-Navy;
+  overflow: hidden;
+  margin-top: 160px;
+
+
+  &__block {
+    position: relative;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &--title h2 {
+      font-size: 48px;
+      font-weight: 700;
+      font-family: "Space Mono", monospace;
+      width: 450px;
+      height: 96px;
+      color: #fff;
+    }
+    &--follow {
+      display: flex;
+      gap: 18px;
+    }
+
+    &--oval1 {
+      position: absolute;
+      top: 150px;
+      left: 320px;
+      width: 347px;
+      height: 347px;
+      opacity: 0.1;
+      border: 15px solid $color-Light-Gray;
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+      border-radius: 50%;
+    }
+    &--oval2 {
+      position: absolute;
+      top: 150px;
+      left: 715px;
+      width: 347px;
+      height: 347px;
+      opacity: 0.1;
+      border: 15px solid $color-Light-Gray;
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+      border-radius: 50%;
+    }
+    &--oval3 {
+      position: absolute;
+      top: 150px;
+      left: 1120px;
+      width: 347px;
+      height: 347px;
+      opacity: 0.1;
+      border: 15px solid $color-Light-Gray;
+      transform: matrix(-1, 0, 0, 1, 0, 0);
+      border-radius: 50%;
+      background-color: $color-Snow;
+    }
+  }
+}
+
+@media only screen and (max-width:992px){
+  .mask {
+    background: $color-Dark-Navy;
+    overflow: hidden;
+    max-width: 100%;
+  
+  
+    &__block {
+      position: relative;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      
+      &--title h2 {
+        font-size: 48px;
+        font-weight: 700;
+        font-family: "Space Mono", monospace;
+        width: 457px;
+        height: 96px;
+        color: #fff;
+        text-align: center;
+      }
+      &--follow {
+        display: flex;
+        gap: 18px;
+        margin-top: 62px;
+
+       
+      }
+      &--follow:nth-child(1){
+        background: aqua;
+      }
+  
+      &--oval1 {
+        position: absolute;
+        top: 150px;
+        left: 320px;
+        width: 347px;
+        height: 347px;
+        opacity: 0.1;
+        border: 15px solid $color-Light-Gray;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        border-radius: 50%;
+      }
+      &--oval2 {
+        position: absolute;
+        top: 150px;
+        left: 715px;
+        width: 347px;
+        height: 347px;
+        opacity: 0.1;
+        border: 15px solid $color-Light-Gray;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        border-radius: 50%;
+      }
+      &--oval3 {
+        position: absolute;
+        top: 150px;
+        left: 1120px;
+        width: 347px;
+        height: 347px;
+        opacity: 0.1;
+        border: 15px solid $color-Light-Gray;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        border-radius: 50%;
+        background-color: $color-Snow;
+      }
+    }
+  }
+}
+@media only screen and (max-width:768px){
+  .mask {
+    background: $color-Dark-Navy;
+    overflow: hidden;
+    max-width: 100%;
+    // margin-top: 160  px;
+  
+  
+    &__block {
+      position: relative;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      
+      &--title h2 {
+        font-size: 48px;
+        font-weight: 700;
+        font-family: "Space Mono", monospace;
+        width: 450px;
+        height: 96px;
+        color: #fff;
+        text-align: center;
+      }
+      &--follow {
+        display: flex;
+        gap: 18px;
+      }
+  
+      &--oval1 {
+        position: absolute;
+        top: 150px;
+        left: 320px;
+        width: 347px;
+        height: 347px;
+        opacity: 0.1;
+        border: 15px solid $color-Light-Gray;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        border-radius: 50%;
+      }
+      &--oval2 {
+        position: absolute;
+        top: 150px;
+        left: 715px;
+        width: 347px;
+        height: 347px;
+        opacity: 0.1;
+        border: 15px solid $color-Light-Gray;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        border-radius: 50%;
+      }
+      &--oval3 {
+        position: absolute;
+        top: 150px;
+        left: 1120px;
+        width: 347px;
+        height: 347px;
+        opacity: 0.1;
+        border: 15px solid $color-Light-Gray;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        border-radius: 50%;
+        background-color: $color-Snow;
+      }
+    }
+  }
+}
+
+@media only screen and(max-width:576px) {
+  .mask {
+    background: $color-Dark-Navy;
+    overflow: hidden;
+    max-width: 100%;
+    // margin-top: 160  px;
+  
+  
+    &__block {
+      position: relative;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      
+      &--title h2 {
+        font-size: 48px;
+        font-weight: 700;
+        font-family: "Space Mono", monospace;
+        width: 450px;
+        height: 96px;
+        color: #fff;
+        text-align: center;
+      }
+      &--follow {
+        display: flex;
+        gap: 18px;
+      }
+  
+      &--oval1 {
+        position: absolute;
+        top: 150px;
+        left: 320px;
+        width: 347px;
+        height: 347px;
+        opacity: 0.1;
+        border: 15px solid $color-Light-Gray;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        border-radius: 50%;
+      }
+      &--oval2 {
+        position: absolute;
+        top: 150px;
+        left: 715px;
+        width: 347px;
+        height: 347px;
+        opacity: 0.1;
+        border: 15px solid $color-Light-Gray;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        border-radius: 50%;
+      }
+      &--oval3 {
+        position: absolute;
+        top: 150px;
+        left: 1120px;
+        width: 347px;
+        height: 347px;
+        opacity: 0.1;
+        border: 15px solid $color-Light-Gray;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+        border-radius: 50%;
+        background-color: $color-Snow;
+      }
+    }
+  }
+}

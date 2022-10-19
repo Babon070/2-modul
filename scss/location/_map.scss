@@ -1,0 +1,237 @@
+.map{
+
+
+    &__block{
+        margin-top: 120px;
+
+        // &--country{
+
+        // }
+
+        &--city{
+            margin-top: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        &--city h3{
+            width: 350px;
+            height: 96px;
+            font-size: 48px;
+            font-weight: 7000;
+            font-family: "Space Mono", monospace;
+            color: $color-Dark-Navy;
+        }
+        &--city p{
+            width: 445px;
+            height: 100px;
+            line-height: 25px;
+            font-size: 15px;
+            font-weight: 400;
+            font-family: 'Lexend Deca', sans-serif;
+            color: $color-Dim-Grey;
+        }
+        .jobs_btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            font-weight: 700;
+            font-family: "Space Mono", monospace;
+            line-height: 25px;
+            width: 180px;
+            height: 53px;
+            background-color: $color-Yellow;
+            color: #fff;
+        }
+        .jobs_btn:hover{
+            background: #fff;
+            color: $color-Yellow;
+            border: 3px solid $color-Yellow;
+        }
+    }
+}
+@media only screen and (max-width:992px){
+    .map{
+
+
+        &__block{
+            margin-top: 120px;
+
+            &--country img{
+                max-width: 992px;
+            }
+    
+            // &--country{
+    
+            // }
+    
+            &--city{
+                height: 350px;
+                margin-top: 120px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-direction: column;
+            }
+            &--city h3{
+                width: 350px;
+                height: 96px;
+                font-size: 48px;
+                font-weight: 7000;
+                font-family: "Space Mono", monospace;
+                color: $color-Dark-Navy;
+            }
+            &--city p{
+                text-align: center;
+                width: 445px;
+                height: 100px;
+                line-height: 25px;
+                font-size: 15px;
+                font-weight: 400;
+                font-family: 'Lexend Deca', sans-serif;
+                color: $color-Dim-Grey;
+            }
+            .jobs_btn{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 15px;
+                font-weight: 700;
+                font-family: "Space Mono", monospace;
+                line-height: 25px;
+                width: 180px;
+                height: 53px;
+                background-color: $color-Yellow;
+                color: #fff;
+            }
+            .jobs_btn:hover{
+                background: #fff;
+                color: $color-Yellow;
+                border: 3px solid $color-Yellow;
+            }
+        }
+    }
+}
+@media only screen and (max-width:768px){
+    .map{
+
+
+        &__block{
+            margin-top: 120px;
+
+            &--country img{
+                max-width: 688px;
+            }
+    
+            // &--country{
+    
+            // }
+    
+            &--city{
+                height: 350px;
+                margin-top: 120px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                flex-direction: column;
+            }
+            &--city h3{
+                width: 350px;
+                height: 96px;
+                font-size: 48px;
+                font-weight: 7000;
+                font-family: "Space Mono", monospace;
+                color: $color-Dark-Navy;
+            }
+            &--city p{
+                text-align: center;
+                width: 445px;
+                height: 100px;
+                line-height: 25px;
+                font-size: 15px;
+                font-weight: 400;
+                font-family: 'Lexend Deca', sans-serif;
+                color: $color-Dim-Grey;
+            }
+            .jobs_btn{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 15px;
+                font-weight: 700;
+                font-family: "Space Mono", monospace;
+                line-height: 25px;
+                width: 180px;
+                height: 53px;
+                background-color: $color-Yellow;
+                color: #fff;
+            }
+            .jobs_btn:hover{
+                background: #fff;
+                color: $color-Yellow;
+                border: 3px solid $color-Yellow;
+            }
+        }
+    }
+}
+@media only screen and (max-width:576px){
+    &__block{
+        margin-top: 120px;
+
+        &--country img{
+            max-width: 688px;
+        }
+
+        // &--country{
+
+        // }
+
+        &--city{
+            height: 350px;
+            margin-top: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+        &--city h3{
+            width: 350px;
+            height: 96px;
+            font-size: 48px;
+            font-weight: 7000;
+            font-family: "Space Mono", monospace;
+            color: $color-Dark-Navy;
+        }
+        &--city p{
+            text-align: center;
+            width: 445px;
+            height: 100px;
+            line-height: 25px;
+            font-size: 15px;
+            font-weight: 400;
+            font-family: 'Lexend Deca', sans-serif;
+            color: $color-Dim-Grey;
+        }
+        .jobs_btn{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            font-weight: 700;
+            font-family: "Space Mono", monospace;
+            line-height: 25px;
+            width: 180px;
+            height: 53px;
+            background-color: $color-Yellow;
+            color: #fff;
+        }
+        .jobs_btn:hover{
+            background: #fff;
+            color: $color-Yellow;
+            border: 3px solid $color-Yellow;
+        }
+    }
+}
+    
+@media only screen and (max-width:375px){}

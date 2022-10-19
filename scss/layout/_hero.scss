@@ -1,0 +1,287 @@
+.hero {
+  margin-top: 96px;
+  height: 650px;
+  background-image: url("../../images/hero/Bitmap\ \(1\).jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__block {
+    display: flex;
+    position: relative;
+
+    &-title {
+      flex-direction: column;
+    }
+    &-title h1 {
+      margin-top: 153px;
+      color: #fff;
+      width: 540px;
+      height: 112px;
+      font-weight: 700;
+      font-size: 56px;
+      font-family: "Space Mono", monospace;
+    }
+
+    &-title p {
+      position: absolute;
+      left: 100px;
+      width: 420px;
+      height: 100px;
+      font-size: 15px;
+      font-weight: 400;
+      font-family: "Lexend Deca", sans-serif;
+      color: #fff;
+      text-align: justify;
+      line-height: 25px;
+    }
+    .line-hero {
+      position: absolute;
+      left: -170px;
+      top: 340px;
+    }
+    .line-hero2 {
+      position: absolute;
+      top: 340px;
+      left: 580px;
+    }
+  }
+
+
+  .hero-btn {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    margin-top: 100px;
+    color: #fff;
+    padding: 14px 39px;
+    background-color: $color-Yellow;
+    border: 3px solid $color-Yellow;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "Space Mono", monospace;
+  }
+  .hero-btn:hover {
+    color: $color-Yellow;
+    border: 3px solid $color-Yellow;
+    background: none;
+    transition: 0.1s;
+  }
+}
+
+@media only screen and(max-width:992px) {
+  .hero {
+    margin-top: 96px;
+    height: 650px;
+    background-image: url("../../images/hero/Bitmap\ \(1\).jpg");
+    background-size: cover;
+    max-width: 100%;
+
+    &__block {
+      display: flex;
+      position: relative;
+
+      &-title {
+        flex-direction: column;
+        margin-left: 90px;
+      }
+      &-title h1 {
+        // position: absolute;
+        text-align: center;
+        color: #fff;
+        width: 520px;
+        height: px;
+        font-weight: 700;
+        font-size: 56px;
+        font-family: "Space Mono", monospace;
+      }
+
+      &-title p{
+        position: absolute;
+        width: 500px;
+        height: 100px;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Lexend Deca", sans-serif;
+        color: #fff;
+        text-align: center;
+        line-height: 25px;
+      }
+    //   =============
+      .line-hero {
+        display: none;
+        position: absolute;
+        left: -170px;
+        top: 340px;
+      }
+    //   =========
+      .line-hero2 {
+        position: absolute;
+        top: 500px;
+        left: -180px;
+      }
+    }
+
+    .hero-btn {
+      position: absolute;
+      top: 320px;
+      left: 250px;
+      margin-top: 100px;
+      color: #fff;
+      padding: 14px 39px;
+      background-color: $color-Yellow;
+      border: 3px solid $color-Yellow;
+      font-size: 15px;
+      font-weight: 700;
+      font-family: "Space Mono", monospace;
+    }
+    .hero-btn:hover {
+      color: $color-Yellow;
+      border: 3px solid $color-Yellow;
+      background: none;
+    }
+  }
+}
+@media only screen and(max-width:768px) {
+    .hero {
+        margin-top: 96px;
+        height: 650px;
+        background-image: url("../../images/hero/Bitmap\ \(1\).jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        max-width: 100%;
+      
+        &__block {
+          display: flex;
+         
+      
+          &-title {
+
+          }
+          &-title h1 {
+            text-align: center;
+            margin-top: 153px;
+            color: #fff;
+            width: 573px;
+            height: 112px;
+            font-weight: 700;
+            font-size: 56px;
+            font-family: "Space Mono", monospace;
+          }
+      
+          &-title p {
+            width: 573px;
+            height: 75px;
+            font-size: 15px;
+            font-weight: 400;
+            font-family: "Lexend Deca", sans-serif;
+            color: #fff;
+            text-align: center;
+            line-height: 25px;
+          }
+          .line-hero {
+            display: none;
+            // position: absolute;
+            left: -170px;
+            top: 340px;
+          }
+          .line-hero2 {
+            position: absolute;
+            top: 500px;
+            left: -130px;
+          }
+        }
+      
+        .hero-btn {
+          position: absolute;
+          top: 340px;
+          left: 300px;
+          margin-top: 100px;
+          color: #fff;
+          padding: 14px 39px;
+          background-color: $color-Yellow;
+          border: 3px solid $color-Yellow;
+          font-size: 15px;
+          font-weight: 700;
+          font-family: "Space Mono", monospace;
+        }
+        .hero-btn:hover {
+          color: $color-Yellow;
+          border: 3px solid $color-Yellow;
+          background: none;
+        }
+      }
+}
+@media only screen and(max-width:576px) {
+  .hero {
+    margin-top: 96px;
+    height: 687px;
+    background-image: url("../../images/hero/Bitmap\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+  
+    &__block {
+      display: flex;
+     
+  
+      &-title {
+
+      }
+      &-title h1 {
+        text-align: center;
+        margin-top: 115px;
+        color: #fff;
+        width: 415px;
+        height: 120px;
+        font-weight: 700;
+        font-size: 56px;
+        font-family: "Space Mono", monospace;
+      }
+  
+      &-title p {
+        width: 380px;
+        height: 125px;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: "Lexend Deca", sans-serif;
+        color: #fff;
+        text-align: center;
+        line-height: 25px;
+        margin-top: 50px;
+      }
+      .line-hero {
+        display: none;
+        // position: absolute;
+        left: -170px;
+        top: 340px;
+      }
+      .line-hero2 {
+        position: absolute;
+        top: 500px;
+        left: -330px;
+      }
+    }
+  
+    .hero-btn {
+      position: absolute;
+      top: 340px;
+      left: 200px;
+      margin-top: 100px;
+      color: #fff;
+      padding: 14px 39px;
+      background-color: $color-Yellow;
+      border: 3px solid $color-Yellow;
+      font-size: 15px;
+      font-weight: 700;
+      font-family: "Space Mono", monospace;
+    }
+    .hero-btn:hover {
+      color: $color-Yellow;
+      border: 3px solid $color-Yellow;
+      background: none;
+    }
+  }
+}

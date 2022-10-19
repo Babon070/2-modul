@@ -1,0 +1,55 @@
+.jobs{
+
+
+    &__block{
+        display: flex;
+        flex-direction: column;
+
+        &--card{
+            @include flex;
+            padding: 0 40px;
+            height: 128px;
+            background-color: $color-bg;
+            margin-top: 24px;
+
+            &-descr{
+                width: 650px;
+                height: 61px;
+            }
+            &-descr h4{
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                font-family: "Space Mono", monospace;
+            }
+            &-descr p{
+                margin-top: 8px;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 25px;
+                font-family: 'Lexend Deca', sans-serif;
+            }
+            &-button a{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 180px;
+                height: 53px;
+                font-size: 15px;
+                font-weight: 700;
+                font-family: "Space Mono", monospace;
+                background-color: $color-Yellow;
+                color: #fff;
+            }
+            &-button a:hover{
+                border: 3px solid $color-Yellow;
+                background: #fff;
+                color: $color-Yellow;
+            }
+
+            
+        }
+
+       
+    }
+}

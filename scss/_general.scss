@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ul, li, a{
+    list-style-type: none;
+    text-decoration: none;
+}
+.main{
+    overflow: hidden;
+}

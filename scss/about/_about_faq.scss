@@ -1,0 +1,89 @@
+.faqs {
+  &__block {
+    
+    &--works {
+      display: flex;
+      justify-content: space-between;
+
+      &-head h3 {
+        font-size: 40px;
+        font-weight: 700;
+        font-family: "Space Mono", monospace;
+        color: $color-Dark-Navy;
+      }
+
+      &-app {
+        position: relative;
+
+        &-cards1 {
+          width: 730px;
+          height: 191px;
+          background: #f2f5f9;
+        }
+
+        &-cards1 h3 {
+          font-size: 24px;
+          font-weight: 700;
+          font-family: "Space Mono", monospace;
+          color: $color-Dark-Navy;
+          width: 356px;
+          height: 28px;
+        }
+        &-cards1 p {
+          font-size: 15px;
+          font-weight: 400;
+          font-family: "Lexend Deca", sans-serif;
+          color: $color-Dark-Navy;
+          width: 650px;
+          height: 75px;
+        }
+
+        &-cards1 h3,
+        &-cards1 p,
+        &-cards2 h3,
+        &-cards3 h3 {
+          padding: 30px;
+          margin-left: 10px;
+        }
+        &-cards1 p {
+          padding-top: 40px;
+        }
+
+        &-cards2,
+        &-cards3 {
+          width: 730px;
+          height: 92px;
+          background: #f2f5f9;
+          margin-top: 16px;
+        }
+        &-cards2 h3,
+        &-cards3 h3 {
+          font-size: 24px;
+          font-weight: 700;
+          font-family: "Space Mono", monospace;
+          color: $color-Dark-Navy;
+        }
+
+        &-cards1:hover,
+        &-cards2:hover,
+        &-cards3:hover {
+          cursor: pointer;
+          background-color: $color-Light-Yellow;
+        }
+      }
+    }
+  }
+
+  &__block--driving {
+    margin-top: 64px;
+  }
+
+  &__block h1 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Space Mono", monospace;
+    line-height: 48px;
+    text-align: center;
+    color: $color-Dark-Navy;
+  }
+}

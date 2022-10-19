@@ -1,0 +1,19 @@
+.nero {
+  background-image: url("../../images/about/hero/Bitmap\ \(7\).png");
+ 
+  margin-top: 96px;
+  background-size: cover;
+
+  &__block{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    
+    &--head {
+      font-weight: 700;
+      font-size: 56px;
+      font-family: "Space Mono", monospace;
+      color: #fff;
+    }
+  }
+}

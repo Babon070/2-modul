@@ -1,0 +1,232 @@
+.footer {
+  background: #333a44;
+
+  &__nav {
+    height: 96px;
+
+    @include flex;
+  }
+  &__block {
+    @include flex;
+    width: 40%;
+  }
+  &__block--ul {
+    @include flex;
+    width: 60%;
+  }
+
+  &__block--ul-li a {
+    color:$color-Dim-Grey;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Space Mono", monospace;
+  }
+  &__block--ul-li a:hover{
+    color: $color-Yellow;
+  }
+  
+
+  //   ================= icon
+
+  &__nav--icon {
+    @include flex;
+    width: 10%;
+
+  }
+  &__nav--icon-ic {
+    width: 24px;
+    height: 24px;
+    background: $color-Yellow;
+    font-size: 24px;
+  }
+  &__nav--icon-ic:hover{
+    background: $color-Snow;
+  }
+  &__nav--icon-ic2 {
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    border-radius: 2px;
+    color: $color-Yellow;
+  }
+  &__nav--icon-ic2:hover{
+    color: $color-Snow;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .footer {
+    background: #333a44;
+  
+    &__nav {
+      // width: 90%;
+      height: 96px;
+      @include flex;
+    }
+    &__block {
+      // @include flex;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 40%;
+    }
+    &__block--ul {
+      @include flex;
+      width: 60%;
+    }
+  
+    &__block--ul-li a {
+      color:$color-Dim-Grey;
+      font-weight: 700;
+      font-size: 15px;
+      font-family: "Space Mono", monospace;
+    }
+    &__block--ul-li a:hover{
+      color: $color-Yellow;
+    }
+    
+  
+    //   ================= icon
+  
+    &__nav--icon {
+      @include flex;
+      width: 15%;
+        
+    }
+    &__nav--icon-ic {
+      width: 24px;
+      height: 24px;
+      background: $color-Yellow;
+      font-size: 24px;
+    }
+    &__nav--icon-ic:hover{
+      background: $color-Snow;
+    }
+    &__nav--icon-ic2 {
+      width: 24px;
+      height: 24px;
+      font-size: 24px;
+      border-radius: 2px;
+      color: $color-Yellow;
+    }
+    &__nav--icon-ic2:hover{
+      color: $color-Snow;
+    }
+  }
+}
+@media only screen and (max-width: 768px){
+  .footer {
+    background: #333a44;
+  
+    &__nav {
+      height: 96px;
+      @include flex;
+    }
+    &__block {
+      @include flex;
+      width: 60%;
+    }
+    &__block--ul {
+      @include flex;
+      width: 65%;
+    }
+  
+    &__block--ul-li a {
+      color:$color-Dim-Grey;
+      font-weight: 700;
+      font-size: 15px;
+      font-family: "Space Mono", monospace;
+    }
+    &__block--ul-li a:hover{
+      color: $color-Yellow;
+    }
+    
+  
+    //   ================= icon
+  
+    &__nav--icon {
+      @include flex;
+      width: 20%;
+  
+    }
+    &__nav--icon-ic {
+      width: 24px;
+      height: 24px;
+      background: $color-Yellow;
+      font-size: 24px;
+    }
+    &__nav--icon-ic:hover{
+      background: $color-Snow;
+    }
+    &__nav--icon-ic2 {
+      width: 24px;
+      height: 24px;
+      font-size: 24px;
+      border-radius: 2px;
+      color: $color-Yellow;
+    }
+    &__nav--icon-ic2:hover{
+      color: $color-Snow;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .footer {
+    background: #333a44;
+  
+    &__nav {
+      height: 96px;
+      // @include flex;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    &__block {
+      @include flex;
+      width: 20%;
+    }
+    &__block--ul {
+      @include flex;
+      width: 30%;
+    }
+  
+    &__block--ul-li a {
+      color:$color-Dim-Grey;
+      font-weight: 700;
+      font-size: 15px;
+      font-family: "Space Mono", monospace;
+    }
+    &__block--ul-li a:hover{
+      color: $color-Yellow;
+    }
+    
+  
+    //   ================= icon
+  
+    &__nav--icon {
+      @include flex;
+      width: 10%;
+  
+    }
+    &__nav--icon-ic {
+      width: 24px;
+      height: 24px;
+      background: $color-Yellow;
+      font-size: 24px;
+    }
+    &__nav--icon-ic:hover{
+      background: $color-Snow;
+    }
+    &__nav--icon-ic2 {
+      width: 24px;
+      height: 24px;
+      font-size: 24px;
+      border-radius: 2px;
+      color: $color-Yellow;
+    }
+    &__nav--icon-ic2:hover{
+      color: $color-Snow;
+    }
+  }
+}
